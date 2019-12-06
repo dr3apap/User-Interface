@@ -160,52 +160,70 @@ h5 {
 
 /* General styles start here*/
 
-html {
-    font-size: 62.5%;
-}
-
-body {
-    line-height: 2;
-    font-family: 'Satisfy', cursive;
-    font-size: 1.5rem;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 3px;
-    padding: 4% 0;
-}
-
 
 /*top level styes starts here */
 
 
 /* with the header*/
 
+* {
+    max-width: 100%;
+}
+
 body {
-    margin: 4%
+    height: 15%;
+}
+
+header h1 {
+    font-size: 75px;
+    margin: 0 auto;
+    padding: 5%;
+    border: 5% solid 0;
+    display: inline-block;
 }
 
 nav a {
     color: grey;
-    width: 70%;
-    padding: 0 20px 20px 0;
-    margin: 4%;
-    border: 10% solid;
+    margin: 5%;
+}
+
+.logo img {
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 28px;
+}
+
+.logo {
+    float: right;
     display: inline-block;
 }
 
-img {
-    float: right;
-    position: inline-block;
-    width: 10%;
+.div1 p {
+    width: 5%;
+    display: inline-block;
 }
 
-button {
-    color: black;
-    padding: 0, 20 0 20px;
-    margin: 10%;
+.div2 p {
+    width: 5%;
+    display: inline-block;
+}
+
+.middle-img {
+    vertical-align: middle;
+}
+
+.btm1 p {
+    width: 5%;
+    display: inline-block;
+}
+
+.btm2 p {
+    width: 5%;
+    display: inline-block;
+}
+
+.btm3 p {
+    width: 5%;
     display: inline-block;
 }
